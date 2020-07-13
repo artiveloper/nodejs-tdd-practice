@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha src/api/user/user.spec.js",
-    "start": "node src/index.js"
+    "test": "cross-env NODE_ENV=test mocha src/api/user/user.spec.js",
+    "start": "node bin/www.js"
   },
   "keywords": [],
   "author": "",
