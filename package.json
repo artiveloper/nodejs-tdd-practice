@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha src/index.spec.js",
+    "test": "mocha src/api/user/user.spec.js",
     "start": "node src/index.js"
   },
   "keywords": [],

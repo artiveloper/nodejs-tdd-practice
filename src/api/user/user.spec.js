@@ -1,4 +1,5 @@
-const app = require('./index');
+// 테스트 코드
+const app = require('../../');
 const request = require('supertest');
 const should = require('should');
 
@@ -175,4 +176,3 @@ describe('PUT /users/:id', () => {
         })
     })
 });
-
